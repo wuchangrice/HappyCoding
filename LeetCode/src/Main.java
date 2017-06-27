@@ -1,8 +1,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        int[] nums = {1, 1, 0, 0, 1};
-        int result = new SubarraySumEqualsK().subarraySum(nums, 1);
+        int[] nums = {-4, -3, -2, -1, 60};
+        int result = new MaximumProductOfThreeNumbers628().maximumProduct(nums);
         System.out.println("result = " + result);
     }
 
