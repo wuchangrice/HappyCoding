@@ -1,9 +1,14 @@
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Main {
 
     public static void main(String[] args) {
-        int[] nums = {-4, -3, -2, -1, 60};
-        int result = new MaximumProductOfThreeNumbers628().maximumProduct(nums);
-        System.out.println("result = " + result);
+        int[] ints = {1,2,3,4,5};
+        KDiffPairsInAnArray532 test = new KDiffPairsInAnArray532();
+        test.findPairs(ints,1);
     }
 
 }

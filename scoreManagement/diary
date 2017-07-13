@@ -1,0 +1,5 @@
+2017年07月13日
+  1.IDEA可以直接创建maven项目，自带test
+  2.创建之后添加pom.xml依赖
+  3.IDEA需要配置maven工具，在preference中修改
+
