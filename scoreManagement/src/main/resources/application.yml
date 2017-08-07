@@ -1,0 +1,7 @@
+server:
+    port: 8080
+spring:
+  redis:
+    host: 973ce55e710f4e50.m.cnbja.kvstore.aliyuncs.com
+    password: xavYovNLzoxGy3zC
+    port: 6379
