@@ -1,14 +1,20 @@
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) {
-        int[] ints = {1,2,3,4,5};
-        KDiffPairsInAnArray532 test = new KDiffPairsInAnArray532();
-        test.findPairs(ints,1);
+        UnionFindSetsAmazon unionFindSetsAmazon = new UnionFindSetsAmazon();
+        List<Relation> relations = new ArrayList<>();
+        relations.add(new Relation("book1","book2"));
+        relations.add(new Relation("book5","book7"));
+        relations.add(new Relation("book1","book3"));
+        relations.add(new Relation("book4","book5"));
+        relations.add(new Relation("book5","book7"));
+        relations.add(new Relation("book5","book1"));
+        Map<Integer,List<String>> result = unionFindSetsAmazon.unionFindSets(relations);
+        for(List<String> strings:result.values()){
+            if(!strings.isEmpty())
+                System.out.println(strings);
+        }
     }
-
 }
